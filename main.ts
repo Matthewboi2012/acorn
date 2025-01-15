@@ -1,0 +1,6 @@
+game.splash(game.askForNumber("Enter Password"))
+scene.setBackgroundImage(assets.image`myImage1`)
+let mySprite2 = sprites.create(assets.image`myImage3`, SpriteKind.Player)
+mySprite2.setPosition(9, 9)
+let mySprite = sprites.create(assets.image`myImage0`, SpriteKind.Player)
+controller.moveSprite(mySprite)
